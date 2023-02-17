@@ -9,3 +9,4 @@ Please note that the crackme level usually doesn't say anything, so I either use
 - [Guild hall adventure by ker2x](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_ker2x_guild_hall_adventure): [link to crackmes](https://crackmes.one/user/ker2x)
 - [find_the_password by oxygen240](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_oxygen240_find_the_password): [link to crackme](https://crackmes.one/crackme/5ab77f5c33c5d40ad448c678)
 - [Ultimatum CrackMe by RedXen](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_RedXen_Ultimatum_CrackMe): [link to crackme](https://crackmes.one/crackme/61ae4e9733c5d413767c9d69)
+- [Confusion by bl4ack](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_bl4ack_Confusion): [link to crackme](https://crackmes.one/crackme/61bbee6833c5d413767c9f20)
