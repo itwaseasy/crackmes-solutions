@@ -11,3 +11,4 @@ Please note that the crackme level usually doesn't say anything, so I either use
 - [Ultimatum CrackMe by RedXen](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_RedXen_Ultimatum_CrackMe): [link to crackme](https://crackmes.one/crackme/61ae4e9733c5d413767c9d69)
 - [Confusion by bl4ack](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_bl4ack_Confusion): [link to crackme](https://crackmes.one/crackme/61bbee6833c5d413767c9f20)
 - [x64_crackme_keygen by dev0](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_dev0_x64_crackme_keygen): [link to crackme](https://crackmes.one/crackme/61c8b23a33c5d413767ca0de)
+- [Cookie's Byte Playground by Blepperton](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_Blepperton_byte_playground): [link to crackme](https://crackmes.one/crackme/61d6402033c5d413767ca325)
