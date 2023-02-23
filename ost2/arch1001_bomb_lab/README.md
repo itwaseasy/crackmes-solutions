@@ -115,6 +115,7 @@ The data structure at this stage is a classic binary tree, and the problem to be
 
 Here is the tree on which the algorithm works (thanks to [binary-tree-visualizer](https://www.npmjs.com/package/binary-tree-visualizer) for visualization):
 
+![](https://github.com/itwaseasy/crackmes-solutions/blob/master/ost2/arch1001_bomb_lab/tree.jpg)
 
 It's probably worth writing tree traversal code that finds a path, but since the tree is small, it's faster to do it on paper.
 

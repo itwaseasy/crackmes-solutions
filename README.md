@@ -15,4 +15,4 @@ Please note that the crackme level usually doesn't say anything, so I either use
 
 ## Level 2
 
-- [Binary Bomb Lab by OpenSecurityTraining2]((https://github.com/itwaseasy/crackmes-solutions/tree/master/ost2/arch1001_bomb_lab): [links to the course](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about) and [to the binaries](https://gitlab.com/opensecuritytraining/arch1001_x86-64_asm_code_for_class/-/tree/master/binary_bomb_lab)
+- [Binary Bomb Lab by OpenSecurityTraining2](https://github.com/itwaseasy/crackmes-solutions/tree/master/ost2/arch1001_bomb_lab): [link to the course](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about) and [to the binaries](https://gitlab.com/opensecuritytraining/arch1001_x86-64_asm_code_for_class/-/tree/master/binary_bomb_lab)
