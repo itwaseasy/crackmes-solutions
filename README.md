@@ -12,3 +12,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 - [Confusion by bl4ack](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_bl4ack_Confusion): [link to crackme](https://crackmes.one/crackme/61bbee6833c5d413767c9f20)
 - [x64_crackme_keygen by dev0](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_dev0_x64_crackme_keygen): [link to crackme](https://crackmes.one/crackme/61c8b23a33c5d413767ca0de)
 - [Cookie's Byte Playground by Blepperton](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_Blepperton_byte_playground): [link to crackme](https://crackmes.one/crackme/61d6402033c5d413767ca325)
+
+## Level 2
+
+- [Binary Bomb Lab by OpenSecurityTraining2]((https://github.com/itwaseasy/crackmes-solutions/tree/master/ost2/arch1001_bomb_lab): [links to the course](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about) and [to the binaries](https://gitlab.com/opensecuritytraining/arch1001_x86-64_asm_code_for_class/-/tree/master/binary_bomb_lab)
