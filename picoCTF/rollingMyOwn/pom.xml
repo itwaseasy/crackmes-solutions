@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.github.itwaseasy</groupId>
+  <artifactId>picoCTF_rollingMyOwn</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+    <appassembler.dir>${project.build.directory}/app</appassembler.dir>
+    <appassembler.version>1.10</appassembler.version>
+    <combinatoricslib.version>3.3.3</combinatoricslib.version>
+    <lib.subDir>lib</lib.subDir>
+    <spotless.google-java-format.version>1.17.0</spotless.google-java-format.version>
+    <spotless.version>2.37.0</spotless.version>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.github.dpaukov</groupId>
+      <artifactId>combinatoricslib3</artifactId>
+      <version>${combinatoricslib.version}</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>appassembler-maven-plugin</artifactId>
+        <version>${appassembler.version}</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>assemble</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <assembleDirectory>${appassembler.dir}</assembleDirectory>
+          <repositoryName>${lib.subDir}</repositoryName>
+          <programs>
+            <program>
+              <mainClass>com.github.itwaseasy.Main</mainClass>
+            </program>
+          </programs>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+        <version>${spotless.version}</version>
+        <configuration>
+          <java>
+            <googleJavaFormat>
+              <version>${spotless.google-java-format.version}</version>
+            </googleJavaFormat>
+          </java>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+</project>
