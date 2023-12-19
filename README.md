@@ -14,7 +14,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | Confusion by bl4ack | [link](https://crackmes.one/crackme/61bbee6833c5d413767c9f20) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_bl4ack_Confusion) |
 | x64_crackme_keygen by dev0 | [link](https://crackmes.one/crackme/61c8b23a33c5d413767ca0de) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_dev0_x64_crackme_keygen) |
 | Cookie's Byte Playground by Blepperton | [link](https://crackmes.one/crackme/61d6402033c5d413767ca325) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_Blepperton_byte_playground) |
-
+| Shop by picoCTF | [link](https://mercury.picoctf.net/static/db20ea321ce780e69e29fd4b60e60fe0/source) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/shop) |
 
 
 ## Level 2
