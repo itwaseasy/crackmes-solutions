@@ -15,6 +15,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | x64_crackme_keygen by dev0 | [link](https://crackmes.one/crackme/61c8b23a33c5d413767ca0de) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_dev0_x64_crackme_keygen) |
 | Cookie's Byte Playground by Blepperton | [link](https://crackmes.one/crackme/61d6402033c5d413767ca325) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/crackmes.one/level1_Blepperton_byte_playground) |
 | Shop by picoCTF | [link](https://mercury.picoctf.net/static/db20ea321ce780e69e29fd4b60e60fe0/source) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/shop) |
+| "Hurry up! Wait!" by picoCTF | [link](https://mercury.picoctf.net/static/7163c5d64bc60b4d079422da5c5e5053/svchost.exe) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/sho://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/hurryUpWait) |
 
 
 ## Level 2
