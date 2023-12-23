@@ -22,6 +22,6 @@ Please note that the crackme level usually doesn't say anything, so I either use
 
 |Name | Link | Solution|
 |--|--|--| 
-| "Binary Bomb Lab" by OpenSecurityTraining2 | [link to the course](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about) and [to the binaries](https://gitlab.com/opensecuritytraining/arch1001_x86-64_asm_code_for_class/-/tree/master/binary_bomb_lab) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/ost2/arch1001_bomb_lab) |
+| "Binary Bomb Lab" by OpenSecurityTraining2 | [course](https://p.ost2.fyi/courses/course-v1:OpenSecurityTraining2+Arch1001_x86-64_Asm+2021_v1/about) and [binaries](https://gitlab.com/opensecuritytraining/arch1001_x86-64_asm_code_for_class/-/tree/master/binary_bomb_lab) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/ost2/arch1001_bomb_lab) |
 | "Rolling My Own" by picoCTF | [link](https://mercury.picoctf.net/static/c4951a16150471875346d4a3cfddc703/remote) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/rollingMyOwn) |
 | "Powershelly" by picoCTF | [script](https://mercury.picoctf.net/static/64180dd699923792daa2806cf90b1bcf/rev_PS.ps1) and [output](https://mercury.picoctf.net/static/64180dd699923792daa2806cf90b1bcf/output.txt) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/powershelly) |
