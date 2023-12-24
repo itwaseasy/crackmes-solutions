@@ -1,4 +1,4 @@
-# Solutions to various crackmes that I found interesting.
+# My solutions to various crackmes that I found interesting.
 
 Please note that the crackme level usually doesn't say anything, so I either use what the author suggests or choose it myself.
 
