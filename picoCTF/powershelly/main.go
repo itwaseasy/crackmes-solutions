@@ -97,7 +97,7 @@ func unscramble(number int64, seed int64) string {
 	for i := int64(0); i < resultLength; i++ {
 		index := (i * seed) % resultLength
 		for markers[index] != '?' {
-			index++
+			index = (index + 1) % resultLength
 		}
 
 		char := byte('?')
