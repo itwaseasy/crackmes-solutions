@@ -17,6 +17,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "Hurry up! Wait!" by picoCTF | [link](https://mercury.picoctf.net/static/7163c5d64bc60b4d079422da5c5e5053/svchost.exe) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/hurryUpWait) |
 | "Easy as GDB" by picoCTF | [link](https://mercury.picoctf.net/static/02142a2292c67ace2fe4ef82280ac907/brute) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/easyAsGDB) |
 | "OTP Implementation" by picoCTF | [binary](https://jupiter.challenges.picoctf.org/static/3cf0f72bb12b1fc6e96af00824beea49/otp) and [flag](https://jupiter.challenges.picoctf.org/static/3cf0f72bb12b1fc6e96af00824beea49/flag.txt) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/otpImplementation) |
+| "Wizardlike" by picoCTF | [binary](https://artifacts.picoctf.net/c/207/game) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/otpImplementatio://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/wizardlike) |
 
 
 ## Level 2
