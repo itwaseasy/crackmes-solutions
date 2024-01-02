@@ -64,6 +64,6 @@ $ for (( i=0; i < 10; i++)); do dd status=none if=./game count=10000 bs=1 skip=$
 ```
 
 This is what you will see on the first map:
-![](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/wizardlike/wizardlike.png)
+![](https://github.com/itwaseasy/crackmes-solutions/blob/master/picoCTF/wizardlike/wizardlike.png)
 
 And each of them has symbols that will ultimately make up the flag. Nice!
