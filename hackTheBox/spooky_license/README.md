@@ -1,7 +1,7 @@
 
 # "Spooky License" by Hack The Box
 
-My world will never be the same. This crackme introduced me to [angr](https://angr.io/), which is a Swiss army knife for binary analysis problems, so I spent the entire weekend reading about it and solving [various](https://github.com/jakespringer /angr_ctf) [examples](https://github.com/angr/angr-examples) that it offers. Thank you!
+My world will never be the same. This crackme introduced me to [angr](https://angr.io/), which is a Swiss army knife for binary analysis problems, so I spent the entire weekend reading about it and solving [various](https://github.com/jakespringer/angr_ctf) [examples](https://github.com/angr/angr-examples) that it offers. Thank you!
 
 The crackme is a great example of how SMT solvers can shine: it consists of one big "if" block that compares the input based on some conditions and then gives you "correct" or "incorrect". The input must have a valid 32-character flag, so brute force will take, let's say, a little longer than you'd like to wait, so another solution is needed.
 
