@@ -64,6 +64,7 @@ Most of all the code in the generated listing is actually the map: it's a 16x16 
 |81850530|!|Exit|
 
 Finding your way on a 16x16 map is easy when you can see it, so I wrote a little utility that draws one. It turned out that it looks like this:
+![](https://github.com/itwaseasy/crackmes-solutions/blob/master/picoCTF/matrix/matrix_maze.png)
 
 You start at the "1:1" location with 0 health (well, maybe it’s not health, but still) and your goal is to find a way out through the maze without dying. To move in any direction, you need to enter `u`, `d`, `l` or `r` for "up", "down", "left" and "right" respectively. If you step on a `-` cell, you will lose 1 health. If you step on a `+` cell, you will receive 1 health.
 
