@@ -67,13 +67,13 @@ calculate_position:
 ; [sp-4]: 	health
 ; [sp-2]:	coordY
 calculate_column:
-	; move current position and "columns per row" const to the extra stack
+	; move the current position and "columns per row" const to the extra stack
 	pop r1
 	push_e r1
 	pop r1
 	push_e r1
 
-	; check that coordY ([sp-2]) is zero, i.e. we calculated all columns
+	; check that coordY ([sp-2]) is zero, i.e. we have calculated all columns
 	cmp [sp-2], 0x0
 	jnz add_column_to_position
 	jmp calculate_column_done
@@ -95,7 +95,7 @@ add_column_to_position:
 	pop_e r1
 	push r1
 
-	; pop current position, add 0x10 to it and move to the main stack
+	; pop the current position, add 0x10 to it and move it to the main stack
 	pop_e r2
 	add r1, r2
 	push r1
@@ -114,7 +114,7 @@ calculate_column_done:
 ; [sp-4]:	position
 ; [sp-2]:	0x10 (columns per row)
 
-	; remove 0x10 constant and current position from the extra stack
+	; remove the 0x10 constant and the current position from the extra stack
 	pop_e r1
 	pop_e r1
 
@@ -122,11 +122,11 @@ calculate_column_done:
 	pop r2
 	pop r2
 
-	; move current position back to the main stack
+	; move the current position back to the main stack
 	push r1
 
 	; jmp to calculate_row
-	; (in the original code it's located in a different place, so the jump is really needed)
+	; (in the original code it's in a different place, so the jump is really needed)
 	jmp r2
 
 calculate_row:
@@ -138,13 +138,13 @@ calculate_row:
 ; [sp-4]: 	health
 ; [sp-2]:	coordY
 
-	; add coordX to position, so now position is an index (not yet scaled) into the map array
+	; add coordX to the position, so now position is an index (not yet scaled) in the map array
 	add [sp-2], [sp-4]
 
-	; pop and save position
+	; pop and save the position
 	pop r1
 
-	; move coordY and health back to the main stack
+	; move coordY and the health back to the main stack
 	pop_e r2
 	push r2
 	pop_e r2
@@ -174,13 +174,13 @@ scale_position_loop:
 
 scale_position_loop_done:
 	; this loop multiplies the position by 4 because each map "value" is 4 bytes long
-	; so in the end we have a real index in the map array
+	; so in the end we have a real scaled index in the map array
 
-	; remove loop counter from the stack
+	; remove the loop counter from the stack
 	pop r1
 	
 	; pop calculate_map_offset ptr and jump to it
-	; (in the original code it's located in a different place, so jump is needed)
+	; (in the original code it's in a different place, so jump is needed)
 	xchg [sp-4], [sp-2]
 	pop r1
 	jmp r1
