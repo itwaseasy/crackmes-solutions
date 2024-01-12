@@ -165,6 +165,9 @@ calculate_row:
 ;
 ; extra stack:
 scale_position_loop:
+	; this loop multiplies the position by 4 because each map "value" is 4 bytes long
+	; so in the end we have a real scaled index in the map array
+
 	cmp [sp-2], 0
 	jz scale_position_loop_done
 
@@ -173,9 +176,6 @@ scale_position_loop:
 	jmp scale_position_loop
 
 scale_position_loop_done:
-	; this loop multiplies the position by 4 because each map "value" is 4 bytes long
-	; so in the end we have a real scaled index in the map array
-
 	; remove the loop counter from the stack
 	pop r1
 	
@@ -200,7 +200,7 @@ calculate_map_offset:
 	xchg [sp-4], [sp-2]
 	add [sp-2], map_offset
 	pop r1
-	jmp r1
+	jmp r1  ; jump to the calculated address which is one of the map cells
 
 exit:
 	mov r1, 1
