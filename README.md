@@ -29,6 +29,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "Rolling My Own" by picoCTF | [link](https://mercury.picoctf.net/static/c4951a16150471875346d4a3cfddc703/remote) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/rollingMyOwn) |
 | "Powershelly" by picoCTF | [script](https://mercury.picoctf.net/static/64180dd699923792daa2806cf90b1bcf/rev_PS.ps1) and [output](https://mercury.picoctf.net/static/64180dd699923792daa2806cf90b1bcf/output.txt) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/powershelly) |
 | "Partial Encryption" by Hack The Box | [link](https://app.hackthebox.com/challenges/partial-encryption) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/partial_encryption) |
+| "Bombs Landed" by Hack The Box | [link](https://app.hackthebox.com/challenges/bombs-landed) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/bombs_landed) |
 
 
 ## Level 3
