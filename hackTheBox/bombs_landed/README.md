@@ -1,7 +1,7 @@
 
 # "Bombs Landed" by Hack The Box
 
-This is another example from HTB that implements "decryption" of code at runtime (same as "[Partial Encryption](https://pugachev.io/2024/01/04/partial-encryption-by-hack-the -box/ )"crackme I described earlier). On top of that, it has a classic anti-debugging trick with `ptrace` and cleverly hidden code that took me a while to find. That's the "wtf" moment, you know, that doubles and becomes "WTF" when you finally solve the problem. But, as usual, let's start from the beginning.
+This is another example from HTB that implements "decryption" of code at runtime (same as "[Partial Encryption](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/partial_encryption)" crackme I described earlier). On top of that, it has a classic anti-debugging trick with `ptrace` and cleverly hidden code that took me a while to find. That's the "wtf" moment, you know, that doubles and becomes "WTF" when you finally solve the problem. But, as usual, let's start from the beginning.
 
 The disassembly shows that it starts by checking `argc` and some flags, which are an indication that the process is under the debugger (or strace, or any other tool that uses `ptrace`). If `argc` is less than 3, it will just print a nice "Bad luck, dude" message and exit. If `argc` is greater than 3 and the process is in debug mode, it will follow you down the wrong path, still asking for a password. Do you want to crash the application? Enter "X" as the password.
 
