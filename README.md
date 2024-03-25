@@ -38,3 +38,4 @@ Please note that the crackme level usually doesn't say anything, so I either use
 |Name | Link | Solution|
 |--|--|--| 
 | "MATRIX" by picoCTF | [link](https://artifacts.picoctf.net/picoMini+by+redpwn/Reverse+Engineering/matrix/matrix) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/matrix) |
+| "FFModule" by Hack The Box | [link](https://app.hackthebox.com/challenges/FFModule) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/ffmodule) |
