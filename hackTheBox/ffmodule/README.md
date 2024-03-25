@@ -9,9 +9,9 @@ But let’s start from the very beginning: firstly, the injection code itself is
 
 ```c
 auto  i,  x;
-for  (i  =  get_screen_ea();  i  <  get_screen_ea()  +  0x5A4;  i  =  i  +  1)  {
+for  (i = get_screen_ea(); i < get_screen_ea() + 0x5A4; i = i + 1)  {
     x  =  byte(i);
-    patch_byte(i,  x  ^  0x72);
+    patch_byte(i, x ^ 0x72);
 }
 ```
 
@@ -30,7 +30,7 @@ push	r13
 push	r12
 movabs	r12, PR_write_hook
 movabs	r13, unmodified_PR_Write
-jmp		r12
+jmp	r12
 int3
 ```
 
