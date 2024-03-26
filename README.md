@@ -31,6 +31,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "Partial Encryption" by Hack The Box | [link](https://app.hackthebox.com/challenges/partial-encryption) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/partial_encryption) |
 | "Bombs Landed" by Hack The Box | [link](https://app.hackthebox.com/challenges/bombs-landed) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/bombs_landed) |
 | "Maze" by Hack The Box | [link](https://app.hackthebox.com/challenges/Maze) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/maze) |
+| "Virtually Mad" by Hack The Box | [link](https://app.hackthebox.com/challenges/Virtually%2520Mad) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/virtually_mad) |
 
 
 ## Level 3
