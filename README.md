@@ -41,3 +41,9 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "MATRIX" by picoCTF | [link](https://artifacts.picoctf.net/picoMini+by+redpwn/Reverse+Engineering/matrix/matrix) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/matrix) |
 | "FFModule" by Hack The Box | [link](https://app.hackthebox.com/challenges/FFModule) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/ffmodule) |
 | "Coffee Invocation" by Hack The Box | [link](https://app.hackthebox.com/challenges/Coffee%2520Invocation) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/coffee_invocation) |
+
+## Level 4
+
+|Name | Link | Solution|
+|--|--|--| 
+| "PTRACE_NOPEEKING" by Hack The Box | [link](https://app.hackthebox.com/challenges/PTRACE_NOPEEKING) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/ptrace_nopeeking) |
