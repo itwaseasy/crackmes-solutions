@@ -49,3 +49,9 @@ Please note that the crackme level usually doesn't say anything, so I either use
 |--|--|--| 
 | "PTRACE_NOPEEKING" by Hack The Box | [link](https://app.hackthebox.com/challenges/PTRACE_NOPEEKING) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/ptrace_nopeeking) |
 | "Iterative Virus" by Hack The Box | [link](https://app.hackthebox.com/challenges/Iterative%2520Virus) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/iterative_virus) |
+
+## Level 5
+
+|Name | Link | Solution|
+|--|--|--| 
+| "vmcrack" by Hack The Box | [link](https://app.hackthebox.com/challenges/vmcrack) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/vmcrack) |
