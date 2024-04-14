@@ -84,7 +84,7 @@ These are exceptions to the rules described earlier:
 - opcodes `0x33 - 0x35` have format `opcode immediate/2 bytes`
 - opcodes `0x36 - 0x40` have format `opcode operand_type`
 
-Please refer to the disassembler sources to see which opcodes apply to which x86 instructions. I won't describe it here, except for the one I called `mov_wtf`. The title implies that I was struggling to understand what it does until I saw it used in bytecode and found this [blog post](http://blog.rewolf.pl/blog/? p=102). That is, I didn’t even know that this was possible, but it does exactly as described in the article: it switches from 32-bit mode to 64-bit mode and back! It's really cool.
+Please refer to the disassembler sources to see which opcodes apply to which x86 instructions. I won't describe it here, except for the one I called `mov_wtf`. The title implies that I was struggling to understand what it does until I saw it used in bytecode and found this [blog post](http://blog.rewolf.pl/blog/?p=102). That is, I didn’t even know that this was possible, but it does exactly as described in the article: it switches from 32-bit mode to 64-bit mode and back! It's really cool.
 
 Okay, I hope that my chaotic description of the VM architecture was more or less clear (or you at least read the disassembler source code), so let’s move on to the task itself.
 
@@ -176,5 +176,3 @@ decrypted = cipher.decrypt(flag)
 for i in range(len(decrypted)):
     print(f'{((decrypted[i] ^ 0xc1) + 0x7c) & 0xff:c}', end='')
 ```
-
-The challenge can be found [here](https://app.hackthebox.com/challenges/vmcrack), and my disassembler and decompiled VM code can be found [here](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/vmcrack).
