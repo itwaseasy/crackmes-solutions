@@ -3,8 +3,8 @@ from unicorn.arm_const import *
 from pwn import *
 
 EMU_ADDRESS = 0x10000
-REMOTE_HOST = '94.237.62.195'
-REMOTE_PORT = 36597
+REMOTE_HOST = 'HOST_HERE'
+REMOTE_PORT = 0xF00DCAFE
 
 def emulate(bytecode):
     try:
