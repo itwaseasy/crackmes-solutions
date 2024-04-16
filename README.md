@@ -19,6 +19,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "OTP Implementation" by picoCTF | [binary](https://jupiter.challenges.picoctf.org/static/3cf0f72bb12b1fc6e96af00824beea49/otp) and [flag](https://jupiter.challenges.picoctf.org/static/3cf0f72bb12b1fc6e96af00824beea49/flag.txt) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/otpImplementation) |
 | "Wizardlike" by picoCTF | [binary](https://artifacts.picoctf.net/c/207/game) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/wizardlike) |
 | "Spooky License" by Hack The Box | [link](https://app.hackthebox.com/challenges/spooky-license) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/spooky_license) |
+| "ARMs Race" by Hack The Box | [link](https://app.hackthebox.com/challenges/ARMs%2520Race) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/arms_race) |
 
 
 ## Level 2
