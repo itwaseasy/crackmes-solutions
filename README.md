@@ -20,6 +20,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "Wizardlike" by picoCTF | [binary](https://artifacts.picoctf.net/c/207/game) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/picoCTF/wizardlike) |
 | "Spooky License" by Hack The Box | [link](https://app.hackthebox.com/challenges/spooky-license) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/spooky_license) |
 | "ARMs Race" by Hack The Box | [link](https://app.hackthebox.com/challenges/ARMs%2520Race) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/arms_race) |
+| "BinCrypt Breaker" by Hack The Box | [link](https://app.hackthebox.com/challenges/BinCrypt%20Breaker) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/bincrypt_breaker) |
 
 
 ## Level 2
