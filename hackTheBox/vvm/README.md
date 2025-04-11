@@ -20,6 +20,25 @@ the 4 bytes `0x00000010`  will be included in the offset.
 
 Another funny thing is that the author updated the task according to the HTB changelog. I had the previous version and it is a bit more complex at the last step of checking the flag. Well, it happens.
 
+The opcode logic is encrypted in binary, but the XOR (of course) code is the same everywhere, so you can decode it with the following IDA script:
+
+```c
+auto i, current_byte, x;
+auto key = 0x2a4d21210b2a;
+auto function_size = 64;
+
+current_byte = key;
+
+for (i = get_screen_ea(); i < get_screen_ea() + function_size; i = i + 1) {
+	x = byte(i) ^ (current_byte & 0xFF);
+	patch_byte(i, x);
+
+	current_byte = current_byte >> 8;
+	if (current_byte == 0)
+		current_byte = key;
+}
+```
+
 You can read the disassembler output I left on GitHub to get the full picture (I even commented it a bit), but basically, it looks like this:
 
 1. Read the flag from stdin.
