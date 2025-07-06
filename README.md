@@ -35,6 +35,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "Bombs Landed" by Hack The Box | [link](https://app.hackthebox.com/challenges/bombs-landed) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/bombs_landed) |
 | "Maze" by Hack The Box | [link](https://app.hackthebox.com/challenges/Maze) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/maze) |
 | "Virtually Mad" by Hack The Box | [link](https://app.hackthebox.com/challenges/Virtually%2520Mad) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/virtually_mad) |
+| "Rega's Town" by Hack The Box | [link](https://app.hackthebox.com/challenges/Rega's%2520Town) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/regas_town) |
 
 
 ## Level 3
