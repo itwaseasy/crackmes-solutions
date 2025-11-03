@@ -36,6 +36,7 @@ Please note that the crackme level usually doesn't say anything, so I either use
 | "Maze" by Hack The Box | [link](https://app.hackthebox.com/challenges/Maze) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/maze) |
 | "Virtually Mad" by Hack The Box | [link](https://app.hackthebox.com/challenges/Virtually%2520Mad) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/virtually_mad) |
 | "Rega's Town" by Hack The Box | [link](https://app.hackthebox.com/challenges/Rega's%2520Town) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/regas_town) |
+| "Hexecution" by Hack The Box | [link](https://app.hackthebox.com/challenges/Hexecution) | [solution](https://github.com/itwaseasy/crackmes-solutions/tree/master/hackTheBox/hexecution) |
 
 
 ## Level 3
